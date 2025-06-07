@@ -1,0 +1,23 @@
+{
+  "name": "js-tailwind-mini-games",
+  "version": "1.0.0",
+  "description": "Some Mini Games, From Practices... Wish You Have Fun Always <3",
+  "main": "run.js",
+  "scripts": {
+    
+    "start:guessNumber": "http-server guessNumber -o",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/haajilari/js-tailwind-mini-games.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/haajilari/js-tailwind-mini-games/issues"
+  },
+  "homepage": "https://github.com/haajilari/js-tailwind-mini-games#readme"
+}
