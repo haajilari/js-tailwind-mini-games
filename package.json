@@ -4,9 +4,9 @@
   "description": "Some Mini Games, From Practices... Wish You Have Fun Always <3",
   "main": "run.js",
   "scripts": {
-    
-    "start:guessNumber": "http-server guessNumber -o",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start:guess_number": "http-server guess_number -o -p 8080",
+    "start:simple_calculator": "http-server simple_calculator -o -p 8081",
+    "start": "concurrently --names \"Guess,Calc\" \"npm run start:guess_number\" \"npm run start:simple_calculator\""
   },
   "repository": {
     "type": "git",
@@ -19,5 +19,8 @@
   "bugs": {
     "url": "https://github.com/haajilari/js-tailwind-mini-games/issues"
   },
-  "homepage": "https://github.com/haajilari/js-tailwind-mini-games#readme"
+  "homepage": "https://github.com/haajilari/js-tailwind-mini-games#readme",
+  "devDependencies": {
+    "concurrently": "^9.1.2"
+  }
 }
